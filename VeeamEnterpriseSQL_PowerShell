@@ -1,0 +1,4 @@
+Backup-SqlDatabase -ServerInstance "ServerName\InstanceName" -Database "DBName" -BackupFile "C:\Temp\DBBackup_$($env:computername)_$(get-date -f yyyy-MM-dd_HH.mm).bak"
+
+
+Backup-SqlDatabase -ServerInstance "W16VEEAM" -Database "VeeamBackupReporting" -BackupFile "C:\Temp\VeeamEM_Backup_$($env:computername)_$(get-date -f yyyy-MM-dd_HH.mm).bak"
