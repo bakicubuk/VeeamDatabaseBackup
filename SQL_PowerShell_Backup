@@ -1,0 +1,1 @@
+Backup-SqlDatabase -ServerInstance "ServerName\InstanceName" -Database "DBName" -BackupFile "C:\Temp\DBBackup_$($env:computername)_$(get-date -f yyyy-MM-dd_HH.mm).bak"
